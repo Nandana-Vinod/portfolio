@@ -1,0 +1,264 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* background-color: yellow; */
+    
+}
+body{
+background-color:black;
+}
+
+body img{
+    width: 30%;
+}
+/* a i{
+    text-decoration: none;
+    color: rgb(59, 196, 209);
+    font-weight:100%;
+    cursor: pointer;
+
+} */
+nav ul{
+    display: flex;
+    gap: 2.5rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+nav li{
+    display: block;
+    transition: .2s;
+    text-decoration: none;
+}
+
+nav ul:hover li{
+    filter: blur(3px);
+    color: palevioletred;
+}
+nav ul li:hover{
+    filter: blur(0px);
+
+}
+
+#heading{
+    padding: 25%;
+    font-family:sans-serif;
+    padding-left: 5%;
+    justify-content: flex-end;
+    color: white;
+    /* display:; */
+
+}
+#hey{
+    font-weight:5px;
+    width: 20%;
+    font-size: 22px;
+}
+#name{
+    color:rgb(21, 161, 208);
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 30px;
+}
+#fullstack{
+    font-size: 22px;
+}
+
+.col-6{
+       /* flex: 100; */
+       max-width:100%;
+       /* padding: 0 4px; */
+       /* display: fluid; */
+       /* background-color: rgb(241, 225, 44); */
+       color: white;
+       
+       
+}
+
+
+
+.img1{
+    /* display: fluid;
+    margin-bottom: 15px; #comment
+    width: 50%;
+    object-fit: contain;
+    background-size: cover;
+    border-radius: 80%;  #comment
+    padding-top:40px; */
+    width: 100%;
+    
+}
+
+#aboutme{
+
+    width: 100%;
+    height: auto;
+    font-size: 20px;
+}
+
+.myimg{
+    background-size: cover;
+    object-fit: contain;
+    width: 50%;
+    display: fluid;
+    justify-content: flex-end;
+}
+#education{
+    font-size: 20px;
+}
+
+/* .card{
+  color: whitesmoke;
+  border-radius: 2% solid brown;
+  
+} */
+
+.card ul li{
+    gap: 1.5rem;
+}   
+
+#card-title{
+    color: white;
+    padding-left: 5%;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.col-sm-6 .card-body .btn{
+    background: transparent;
+    font-weight: 700;
+
+     
+}
+
+/* .col-sm-6 .card-body .btn:hover{
+opacity: 0;
+} */
+
+
+#items1{
+    display: none;
+    color: white;
+    transition: 0s;
+}
+#items2{
+    display: none;
+    color: white;
+    transition: 0ms;
+    font-size: 13px;
+}
+
+
+
+#socialconnection{
+    /* background: transparent; */
+    color: white;
+    background-color: black;
+    border-radius: 0;
+    border: 0;
+
+}
+#i{
+    cursor: pointer;
+    color: yellow;
+}
+/* .socialicons{
+    color: rgb(151, 37, 56);
+    align-items: center;
+
+} */
+/* .address{
+    font-size: 10px;
+}
+
+.message{
+    height: 300px;
+    width: 292px;
+    color: rgb(21, 161, 208);
+    color: white;
+    border-radius: 2%;
+    margin: 5px red;
+    background-color: black;
+    font-size: 10px;
+}
+
+.label{
+    font-size: 10px;
+    padding-left: 5px;
+} */
+
+/* .control{
+    height: 5px;
+    width: 100%;
+    background: transparent;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom:1px solid white;
+    font-size: 10px;
+    color: white;
+    
+} */
+
+/* .submit{
+    border: 0;
+    background: transparent;
+    color: rgb(21, 161, 208);
+
+} */
+
+
+
+.container .text{
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+
+
+/* @media(min-width){
+    
+    .col-sm-6{
+        width:300px;
+        height: 300px;
+        color: white;
+        background-size: cover;
+        display: flex;
+    } */
+    
+
+    /* .col-sm-8{
+        width: 300px;
+        height: 300px;
+        background-size: cover;
+        display: flex;
+        
+    } */
+
+    /* .final img{
+        width: 300px;
+    } */
+
+    /* .address{
+        background-size: cover;
+        background-size: cover;
+        display: flex;
+    } */
+
+    
+    /* } */
+
+
+    
+    /* #heading{
+        align-items: center;
+    } */
+
+    

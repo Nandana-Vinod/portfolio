@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    
+</head>
+<body>
+    <div class="home">
+        <nav class="navbar navbar-expand-lg">
+            <div class="nav nav">
+                  <li>Home</li>
+                  <li>About</li>
+                  <li>Skills</li>
+                  <li>Contact</li>
+            </div>
+        </nav>
+        <!-- <div class="button">
+        <button style="color: white;" class="btn">Home</button>
+        <a href="#aboutme"><button style="color: white;" class="btn">About</button></a>
+        <a href="#adjustcard"><button style="color: white;" class="btn">Skills</button></a>
+        <button style="color: white;" class="btn">Contact</button>
+        </div>
+     -->
+     <div class="card">
+        <h3>Hi,this is me <span style="color: rgb(224, 58, 127);">Nandana</span></h3>
+        Fullstack Developer
+
+     </div>
+
+    </div>
+<style>
+.home{
+    background-image: url(desk.jpg);
+    height: 100vh;
+    color: white;
+    width: auto;
+    display: fluid;
+    object-fit: contain;
+    justify-content: center;
+    align-items: center;
+    padding-left: 35%;
+    padding-top:15%;
+    background-size: cover;
+    background-position: center;
+    @media (min-width:300px)and (max-width:600px) {
+        home{
+            width:100%;
+        }
+    }
+    .home:hover{
+        opacity: 1;
+    }
+ 
+.btn{
+  height: 40px;
+  width: 100px;
+  color:rgb(225, 62, 62);
+  background: transparent;
+  border:2px solid rgb(206, 65, 65);
+  border-radius: 20px;
+  justify-content: top;
+  justify-items: flex-start;
+  cursor: pointer;
+  .btn:hover{
+    opacity: 1;
+  }
+}
+
+.button{
+    /* justify-content: flex-start; */
+    justify-content: space-between;
+    align-items:flex-start;
+    /* padding-bottom: 40%; */
+}
+  
+}
+
+
+.card{
+    justify-content: center;
+    height: 300px;
+    width: 250px;
+    padding-left: 3%;
+    background-color: rgba(225,225,225,0.1);
+    border-radius: 30px;
+    @media (min-width:300px)and(max-width:600px){
+        card{
+            padding-left: 0%;
+            height: 100px;
+            width: 50px;
+        }
+    }
+    
+
+}
+</style>
+    
+<div class="page1">
+    
+    <div id="aboutme">
+        <h3 style="color: white;">About me</h3>
+        <p style="color: white;">
+            To achieve on challenging career in organization thaat provides me an 
+            opportunity to demonstrate my skills and improve my knowledge and be a
+            part of team that words dynamically towards the goal of the organization.
+        </p>
+    </div>
+    <!-- <div class>
+    <div class="card" style="justify-content: right;"></div>
+    </div> -->
+    <div class="imgadj">
+        <img src="quest.jpg" alt="">
+    </div>
+</div>
+
+<style>
+    .page1{
+        background-image: url(lap2.jpeg);
+        /* background-color: rgba(255,255,255,0.1); */
+        height: 100vh;
+        object-fit: contain;
+        background-size: cover;
+        justify-content: end;
+        opacity: 1;
+        width: auto;
+        @media (min-width:300px)and (max-width:600px) {
+        home{
+            width:100%;
+        }
+    }
+        
+
+    .page1:hover{
+        opacity: 0.1;
+    }
+    }
+#aboutme{
+    padding-left: 5%;
+    padding-top: 5%;
+}
+
+/* .page1 .card{
+    background-image: url(quest.jpg);
+    object-fit: contain;
+    background-size: cover;
+    justify-content: end;
+    
+} */
+
+.page1 img{
+    height: 20%;
+    width: 25%;
+    display: flex;
+    justify-content: end;
+    border-radius: 30px;
+    /* padding-left: 20%; */
+}
+</style>
+<div class="page2">
+    <div class="skilbtn"><button style="color: white;" class="btn">Skills</button></div> <br><br>
+    <div id="adjustcard">
+     <div class="card ">
+         <div class="card-title"><h4 style="color: rgb(140, 14, 77); padding-left: 5%;">Technical Skills</h4></div>
+         <ul>
+               <li>PYTHON</li>
+               <li>DJANGO</li>
+               <li>FLASK</li>
+               <li>ANGULAR</li>
+               <li>HTML</li>
+               <li>CSS</li>
+               <li>JAVASCRIPT</li>
+               <li>JQUERRY</li>
+               <li>BOOTSTRAP</li>
+         </ul>
+     </div>
+    </div>
+
+</div>
+<style>
+    .btn{
+  height: 40px;
+  width: 100px;
+  color:rgb(225, 62, 62);
+  background: transparent;
+  border:2px solid rgb(206, 65, 65);
+  border-radius: 20px;
+  justify-content: top;
+  justify-items: flex-start;
+  cursor: pointer;
+  .btn:hover{
+    opacity: 1;
+  }
+}
+
+.skilbtn{
+    padding-left:10%;
+}
+    
+    .page2{
+        height: 100vh;
+        width: auto;
+        background-image: url(lap3.jpg);
+        object-fit: contain;
+        display: flex;
+        background-size: cover;
+        .page2:hover{
+            opacity: 1;
+        }
+    }
+
+    .page2 .card{
+        background-color: rgba(225,225,225,0.1);
+        color: white;
+    }
+#adjustcard{
+    padding-top: 7%;
+    /* padding-left: 10%; */
+}
+
+</style>
+</body>
+</html>
